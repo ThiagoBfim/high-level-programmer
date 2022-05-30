@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/getty_521047180_186951.webp
+coverY: 0
+---
+
 # A Brief History of Why You Should Code with Care
 
 The first thing to ask, is what is Care?
