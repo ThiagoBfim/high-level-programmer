@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/getty_521047180_186951.webp
+cover: ../.gitbook/assets/ezgif.com-gif-maker.png
 coverY: 0
 ---
 
