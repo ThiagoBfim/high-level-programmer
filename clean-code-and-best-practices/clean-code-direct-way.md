@@ -9,6 +9,10 @@ coverY: 0
 In this article, I'll show you some tips for all kinds of challenges. These tips will help you write clean code.
 
 Clean Code is a very important thing that all programmers should be concerned about, as we spend 10x more time reading than writing code, so when we need to write, we have to write clean code.\
+
+
+### What is Clean Code?
+
 \
 Before we start, **what is clean code?**
 
@@ -19,6 +23,8 @@ Before we start, **what is clean code?**
 > _Clean code is simple and direct. Clean code reads like well-written prose. Clean code never obscures the designer's intent but rather is full of crisp abstractions and straightforward lines of control._
 >
 > **Grady Booch**
+
+### 10 Tips to write clean code
 
 Now that you already know what is clean code, let's go to some tips :smile:
 
