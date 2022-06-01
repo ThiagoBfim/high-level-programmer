@@ -37,8 +37,11 @@ Now that you already know what is clean code, let's go to some tips :smile:
 
 If you want to learn more about it, follow these references:
 
-![clean code](../.gitbook/assets/cleancode.jpg)Clean Code: A Handbook of Agile Software Craftsmanship \
+Clean Code: A Handbook of Agile Software Craftsmanship \
 \
 
 
-![work with legacy code](../.gitbook/assets/worklegacycode.jpg) Working Effectively with Legacy Code&#x20;
+![Clean Code: A Handbook of Agile Software Craftsmanship&#x20;
+](../.gitbook/assets/cleancode.jpg)
+
+![ Working Effectively with Legacy Code ](../.gitbook/assets/worklegacycode.jpg)
