@@ -35,10 +35,9 @@ Now that you already know what is clean code, let's go to some tips :smile:
 
 ***
 
-If you want to learn more about it, follow these references:
+### References
 
-Clean Code: A Handbook of Agile Software Craftsmanship \
-\
+If you want to learn more about it, follow these references:\
 
 
 ![Clean Code: A Handbook of Agile Software Craftsmanship&#x20;
