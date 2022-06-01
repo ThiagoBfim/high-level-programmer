@@ -33,5 +33,12 @@ Now that you already know what is clean code, let's go to some tips :smile:
 9. **Low coupling and high cohesion**. You should know the paradigm of your programming language very well to be able to create a code with low coupling and with high cohesion.
 10. **Create unit test.** Unit testing will help you maintain your code better and provide more security for maintenance.
 
+If you want to learn more about it, follow these references:
 
+> Clean Code: A Handbook of Agile Software Craftsmanship
+>
+> **Robert C. Martin**
 
+> Working Effectively with Legacy Code
+>
+> **Michael C. Feathers**
