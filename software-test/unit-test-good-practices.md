@@ -15,7 +15,7 @@ Unit tests bring many benefits to the software, I'll show you some of them:
 **“Legacy Code is code without Tests.”**\
 _―_ Michael Feathers
 
-### Good practices for creating a unit test
+### FIRST  & CORRECT
 
 To understand how the tests should behave, let's first understand two acronyms, the **FIRST** and the **CORRECT.**
 
@@ -54,9 +54,35 @@ In addition to tests being FIRST, it is also necessary to think that it must be 
 
 ### Test Nomenclature
 
+It is important to create tests with meaningful names. Tests can be executed by new developers to understand better what the class does.
+
+There are some approaches to choosing a good name:
+
+"Given-When-Then": According to a certain context, when something happens, we will expect some result.
+
+Example: givenUserLoggedInWhenClickLogoutThenRemoveTheSession
+
+"When-Then": It is common to use without context too.
+
+Example: whenUserLoginThenShowTheUseTerm
+
+"Should-When": Something must happen when something else happens.
+
+Example: shouldHaveDiscountWhenBillingIsBiggerThan50
+
+### Conclusion
+
+This is an introduction to the importance of tests, and how we can create better tests. Don't forget the test is part of the code, so do it with care and remember that if your tests degrade, your code will too, so keep your tests clean.
 
 
 
+### References
+
+**Pragmatic Unit Testing in Java 8 With JUnit**\
+\- Jeff Langr, Andy Hunt, Dave Thomas
+
+**Clean code**\
+\- Robert Cecil Martin
 
 &#x20;
 
