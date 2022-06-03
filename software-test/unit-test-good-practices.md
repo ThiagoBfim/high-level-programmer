@@ -29,9 +29,36 @@ The FIRST acronyms will help us to write tests following some essential rules, a
 
 **Repeatable:** The unit test can be run multiple times and the result should always be the same.
 
-**Self Validating:**
+**Self Validating:** Each test needs at least one assertion to validate the execution
 
-**Timely:**
+**Timely:** The unit test needs to have smart coverage, trying to find all the boundaries, to ensure the test will validate all the scenarios.\
+They also need to be done at the right time. By creating the test first, you ensure your code more quality.
+
+In addition to tests being FIRST, it is also necessary to think that it must be CORRECT.
+
+**CORRECT** is useful to validate if your test is good. For that, you have to answer these questions:
+
+**Conformity:** Does the data represent the correct type?
+
+**Order**: Is the order of the result as expected?
+
+**Range**: Are you validating the range of the data?
+
+**Reference**: Does the test call any external service?
+
+**Existence**: Can the unit test value be null or negative?
+
+**Cardinality**: There is enough value?
+
+**Time**: Is everything running in some order? Is it safe with concurrency?&#x20;
+
+### Test Nomenclature
+
+
+
+
+
+&#x20;
 
 ****
 
