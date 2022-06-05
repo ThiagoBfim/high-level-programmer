@@ -9,6 +9,7 @@
 ## 🗑 Clean Code & Best Practices
 
 * [Clean Code – Direct Way](clean-code-and-best-practices/clean-code-direct-way.md)
+* [Write better code with 8 principles](clean-code-and-best-practices/write-better-code-with-8-principles.md)
 
 ## 🧐 Software Test
 
