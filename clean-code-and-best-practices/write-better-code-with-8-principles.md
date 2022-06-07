@@ -69,5 +69,39 @@ The goal of the DRY is to reuse the code written before.\
 
 ![](../.gitbook/assets/image15.png)
 
+### \[KISS] - Keep It Simple, Stupid
+
+The KISS Principle states that things work better if they are kept simple, instead of complicated.
+
+![](../.gitbook/assets/image17.png)
+
+### \[YAGNI] - You Ain't Gonna Need It
+
+Always implement things when you really need them, never when you just anticipate you need them.
+
+![](../.gitbook/assets/image19.png)
+
+### Conclusion
+
+In this article, I show you 8 principles that will guide you to write better solutions in your code. Keep these principles in mind and use them when you need to.
+
+Don't try to overload your application by trying to apply all these principles everywhere. They are very important, and you will probably need some of them most of the time, so use them wisely.
 
 
+
+### References
+
+**Clean code**\
+\- Robert Cecil Martin
+
+**The clean coder**\
+\- Robert Cecil Martin
+
+**The pragmatic programmer**\
+\- Andy Hunt, Dave Thomas
+
+**Test-driven Java Development**\
+\- Viktor Farcic, Alex Garcia
+
+**Extreme Programming Explained**\
+\- Kent Beck, Cynthia Andres
