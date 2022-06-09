@@ -18,3 +18,7 @@
 ***
 
 * [😁 About me](about-me.md)
+
+## Group 1
+
+* [REST API best practices](group-1/rest-api-best-practices.md)
