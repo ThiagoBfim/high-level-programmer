@@ -18,4 +18,4 @@
 ## 📚 Keep your knowledge sharp
 
 * [REST API best practices](keep-your-knowledge-sharp/rest-api-best-practices.md)
-* [😁 About me](keep-your-knowledge-sharp/about-me.md)
+* [😁 About me](about-me.md)
