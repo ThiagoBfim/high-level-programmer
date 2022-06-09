@@ -15,10 +15,7 @@
 
 * [Unit Test - Good Practices](software-test/unit-test-good-practices.md)
 
-***
+## 📚 Keep your knowledge sharp
 
-* [😁 About me](about-me.md)
-
-## Group 1
-
-* [REST API best practices](group-1/rest-api-best-practices.md)
+* [REST API best practices](keep-your-knowledge-sharp/rest-api-best-practices.md)
+* [😁 About me](keep-your-knowledge-sharp/about-me.md)
