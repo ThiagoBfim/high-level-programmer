@@ -9,11 +9,14 @@
 ## 🗑 Clean Code & Best Practices
 
 * [Clean Code – Direct Way](clean-code-and-best-practices/clean-code-direct-way.md)
-* [Write better code with 8 principles](clean-code-and-best-practices/write-better-code-with-8-principles.md)
 
 ## 🧐 Software Test
 
 * [Unit Test - Good Practices](software-test/unit-test-good-practices.md)
+
+## 🏅 Software Patterns
+
+* [Write better code with 8 principles](software-patterns/write-better-code-with-8-principles.md)
 
 ## 📚 Keep your knowledge sharp
 
@@ -21,4 +24,4 @@
 
 ## Others
 
-* [😁 About me](others/about-me.md)
+* [😁 About me](about-me.md)
