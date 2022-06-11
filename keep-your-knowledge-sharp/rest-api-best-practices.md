@@ -10,7 +10,7 @@ So, a REST API or a RESTFul API is an API that implements the REST principles.
 
 ### RFC what is it?
 
-RFC is request for comments, is a formal document from Internet engineering Task Force (IETF).
+RFC is a request for comments and is a formal document from Internet engineering Task Force (IETF).
 
 RFC documents contain technical specifications and organizational notes for the Internet.
 
@@ -18,7 +18,7 @@ To know more about RFC access: https://www.ietf.org/standards/rfcs/
 
 There are some RFCs that were created to deal with REST, the first one was RFC 2616 created in June 1999 and became obsolete by RFC7230 - RFC7235 created in June 2014, and now these RFCs are also obsolete because of the new RFC9110, RFC9111 and RFC9112 that were created in June 2022.
 
-### What is the most common HTTP Methods?
+### What are the most common HTTP Methods?
 
 | Method  | Description                                                                                                                | Is Idempotent |
 | ------- | -------------------------------------------------------------------------------------------------------------------------- | ------------- |
