@@ -42,7 +42,7 @@ For more information, access [RFC9110 - HTTP Methods](https://datatracker.ietf.o
 
 These are the most common HTTP Status:
 
-| HTTP STATUS | Name                  | Description                                                                                                                                   |
+| HTTP Status | Name                  | Description                                                                                                                                   |
 | ----------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | 200         | OK                    | Indicates that the request has succeeded                                                                                                      |
 | 201         | Created               | Indicates that the request has resulted in one or more new resources being created                                                            |
