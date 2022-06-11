@@ -20,7 +20,7 @@
 
 ## 📚 Keep your knowledge sharp
 
-* [REST API best practices](keep-your-knowledge-sharp/rest-api-best-practices.md)
+* [What should I know about REST API?](keep-your-knowledge-sharp/what-should-i-know-about-rest-api.md)
 
 ## Others
 
