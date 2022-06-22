@@ -26,6 +26,7 @@
 
 * [What should I know about REST API?](keep-your-knowledge-sharp/rest-api-best-practices.md)
 * [HTTP Status 204 vs 404](keep-your-knowledge-sharp/http-status-204-vs-404.md)
+* [Redis Sentinel on Kubernetes](keep-your-knowledge-sharp/redis-sentinel-on-kubernetes.md)
 
 ## Others
 
