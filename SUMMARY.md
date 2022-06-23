@@ -6,7 +6,7 @@
 
 * [A Brief History of Why You Should Code with Care](mindset/a-brief-history-of-why-you-should-code-with-care.md)
 
-## Basics
+## 📖 Basics
 
 * [4 Pillars of Object-Oriented Programming](basics/4-pillars-of-object-oriented-programming.md)
 
@@ -26,7 +26,8 @@
 
 * [What should I know about REST API?](keep-your-knowledge-sharp/rest-api-best-practices.md)
 * [HTTP Status 204 vs 404](keep-your-knowledge-sharp/http-status-204-vs-404.md)
-* [Redis Sentinel on Kubernetes](keep-your-knowledge-sharp/redis-sentinel-on-kubernetes.md)
+* [Redis Sentinel on Kubernetes](keep-your-knowledge-sharp/redis-sentinel-on-kubernetes/README.md)
+  * [Redis architecture](keep-your-knowledge-sharp/redis-sentinel-on-kubernetes/redis-architecture.md)
 
 ## Others
 
