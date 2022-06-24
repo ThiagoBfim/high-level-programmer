@@ -46,7 +46,7 @@ For correct use, it is necessary for the application to know who the Cluster nod
 
 ### Quick Guide
 
-1. Install Redis with Kubernetes using Helm https://github.com/bitnami/charts/tree/master/bitnami/redis :
+1. Install Redis with Kubernetes using Helm [https://github.com/bitnami/charts/tree/master/bitnami/redis ](https://github.com/bitnami/charts/tree/master/bitnami/redis):
 
 ```
 helm repo add bitnami https://charts.bitnami.com/bitnami
