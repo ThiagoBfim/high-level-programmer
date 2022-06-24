@@ -23,7 +23,7 @@ In this architecture it works similarly to Master-Slave, the big difference is t
 
 Sentinel is responsible for identifying who is the master, and if there is a problem with the master, it will elect a new master.
 
-![](https://rtfm.co.ua/wp-content/uploads/2019/03/screen-shot-2017-08-11-at-14-34-42.png)
+![](../../.gitbook/assets/redis-sentinel.png)
 
 #### 3. Redis Cluster
 
@@ -33,11 +33,11 @@ This Architecture is the most complex, in which several masters and slaves are c
 
 For correct use, it is necessary for the application to know who the Cluster nodes are.
 
-![](https://rtfm.co.ua/wp-content/uploads/2019/03/screen-shot-2017-08-11-at-14-34-48.png)
+![](../../.gitbook/assets/redis-cluster.png)
 
 #### Advantages e Disadvantages
 
-| Informação            | Master-Slave | Sentinel | Redis Cluster |
+| Information           | Master-Slave | Sentinel | Redis Cluster |
 | --------------------- | ------------ | -------- | ------------- |
 | **Configuration**     | Easy         | Medium   | Hard          |
 | **Write Performance** | Medium       | Medium   | High          |
@@ -46,7 +46,7 @@ For correct use, it is necessary for the application to know who the Cluster nod
 
 ### Quick Guide
 
-1. Install Radis with Kubernetes using Helm https://github.com/bitnami/charts/tree/master/bitnami/redis :
+1. Install Redis with Kubernetes using Helm https://github.com/bitnami/charts/tree/master/bitnami/redis :
 
 ```
 helm repo add bitnami https://charts.bitnami.com/bitnami
