@@ -1,4 +1,4 @@
-# Redis architecture
+# Redis Architecture
 
 
 
@@ -23,7 +23,7 @@ In this architecture it works similarly to Master-Slave, the big difference is t
 
 Sentinel is responsible for identifying who is the master, and if there is a problem with the master, it will elect a new master.
 
-![](../../.gitbook/assets/redis-sentinel.png)
+![](../.gitbook/assets/redis-sentinel.png)
 
 #### 3. Redis Cluster
 
@@ -33,7 +33,7 @@ This Architecture is the most complex, in which several masters and slaves are c
 
 For correct use, it is necessary for the application to know who the Cluster nodes are.
 
-![](../../.gitbook/assets/redis-cluster.png)
+![](../.gitbook/assets/redis-cluster.png)
 
 #### Advantages e Disadvantages
 
