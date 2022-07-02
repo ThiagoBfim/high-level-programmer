@@ -28,6 +28,7 @@
 * [HTTP Status 204 vs 404](keep-your-knowledge-sharp/http-status-204-vs-404.md)
 * [Redis Sentinel on Kubernetes](keep-your-knowledge-sharp/redis-sentinel-on-kubernetes.md)
 * [Redis Architecture](keep-your-knowledge-sharp/redis-architecture.md)
+* [News from Java 8 to Java 18](keep-your-knowledge-sharp/news-from-java-8-to-java-18.md)
 
 ## Others
 
