@@ -196,6 +196,8 @@ HttpRequest httpRequest = HttpRequest.newBuilder()
 HttpResponse httpResponse = httpClient.send(httpRequest, HttpResponse.BodyHandlers.ofString());
 ```
 
+PS: If you are using Java Modules, you will need this: `requires java.net.http;`
+
 ### Java 12
 
 If you want to know more about what's new in Java 12: [https://www.oracle.com/java/technologies/javase/12-relnote-issues.html](https://www.oracle.com/java/technologies/javase/12-relnote-issues.html)
