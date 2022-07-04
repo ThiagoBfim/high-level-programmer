@@ -8,7 +8,7 @@ The LTS version is the Long-Term-Support, so they have more support than the oth
 
 Since Java 17, the release program has been 2 new releases every year, one in March and one in September, and the interval between LTS versions is now two years instead of three, making Java 21 (planned for September 2023) probably the next LTS.
 
-If you want to know more about it: https://www.oracle.com/java/technologies/java-se-support-roadmap.html
+If you want to know more about it: [https://www.oracle.com/java/technologies/java-se-support-roadmap.html](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
 
 ### Java 8 (LTS)
 
@@ -18,7 +18,9 @@ But beware, there are many tools and frameworks that stop supporting this versio
 
 I'll show just some news in this version because this is a big version with a lot of news. Like LocalDate, LocalDateTime, updates into File API...
 
-If you want to know more about what's new in Java 8: https://www.baeldung.com/java-8-new-features https://www.oracle.com/java/technologies/javase/8-whats-new.html
+If you want to know more about what's new in Java 8: [https://www.baeldung.com/java-8-new-features](https://www.baeldung.com/java-8-new-features) \
+[https://www.oracle.com/java/technologies/javase/8-whats-new.html](https://www.oracle.com/java/technologies/javase/8-whats-new.html)\
+[https://www.oracle.com/java/technologies/javase/8all-relnotes.html](https://www.oracle.com/java/technologies/javase/8all-relnotes.html)
 
 #### Stream
 
@@ -116,7 +118,9 @@ For more information: [https://www.baeldung.com/java-9-stream-api](https://www.b
 
 ### Java 10
 
-If you want to know more about what's new in Java 10: [https://www.oracle.com/java/technologies/javase/10-relnote-issues.html ](https://www.oracle.com/java/technologies/javase/10-relnote-issues.html)[https://www.baeldung.com/java-10-overview](https://www.baeldung.com/java-10-overview)
+If you want to know more about what's new in Java 10: [https://www.oracle.com/java/technologies/javase/10all-relnotes.html](https://www.oracle.com/java/technologies/javase/11all-relnotes.html)\
+\
+[https://www.baeldung.com/java-10-overview](https://www.baeldung.com/java-10-overview)
 
 #### Unmodifiable List in the Collection
 
@@ -147,9 +151,9 @@ If you want to know more about it: [https://openjdk.org/jeps/286](https://openjd
 
 ### Java 11 (LTS)
 
-This is an LTS version, has a extended support until September 2026
+This is an LTS version, and has extended support until September 2026
 
-If you want to know more about what's new in Java 11: [https://www.oracle.com/java/technologies/javase/11-relnote-issues.html](https://www.oracle.com/java/technologies/javase/11-relnote-issues.html)
+If you want to know more about what's new in Java 11: [https://www.oracle.com/java/technologies/javase/11all-relnotes.html](https://www.oracle.com/java/technologies/javase/11all-relnotes.html)
 
 [https://www.baeldung.com/java-11-new-features](https://www.baeldung.com/java-11-new-features)
 
@@ -200,7 +204,7 @@ PS: If you are using Java Modules, you will need this: `requires java.net.http;`
 
 ### Java 12
 
-If you want to know more about what's new in Java 12: [https://www.oracle.com/java/technologies/javase/12-relnote-issues.html](https://www.oracle.com/java/technologies/javase/12-relnote-issues.html)
+If you want to know more about what's new in Java 12: [https://www.oracle.com/java/technologies/javase/12all-relnotes.html](https://www.oracle.com/java/technologies/javase/12all-relnotes.html)
 
 [https://www.baeldung.com/java-12-new-features](https://www.baeldung.com/java-12-new-features)
 
@@ -224,23 +228,67 @@ assertEquals("2.59 thousand", likesLong.format(2592));
 
 ### Java 13
 
-If you want to know more about what's new in Java 13: [https://www.oracle.com/java/technologies/javase/13-relnote-issues.html](https://www.oracle.com/java/technologies/javase/13-relnote-issues.html)
+If you want to know more about what's new in Java 13: [https://www.oracle.com/java/technologies/javase/13all-relnotes.html](https://www.oracle.com/java/technologies/javase/13all-relnotes.html)
 
 [https://www.baeldung.com/java-13-new-features](https://www.baeldung.com/java-13-new-features)
 
-#### Added FileSystems.newFileSystem(Path, Map\<String, ?>) Method
+#### JEP 354 Switch Expressions (Preview)
 
-Three new methods have been added to java.nio.file.FileSystems to make it easier to use file system providers that treat the contents of a file as a file system.
+Extend switch so it can be used as either a statement or an expression, and so that both forms can use either traditional case ... : labels (with fall through) or new case ... -> labels (with no fall through), with a further new statement for yielding a value from a switch expression.
+
+In this version Java introduces the _Yield_ special word.
+
+Most switch expressions will have a single expression to the right of the "case L ->" switch label. In the event that a full block is needed, we introduce a new yield statement to yield a value, which becomes the value of the enclosing switch expression.
+
+Before:
 
 ```
-newFileSystem(Path)
-newFileSystem(Path, Map<String, ?>)
-newFileSystem(Path, Map<String, ?>, ClassLoader)
+int numLetters;
+        switch (day) {
+            case "MONDAY":
+            case "FRIDAY":
+            case "SUNDAY":
+                numLetters = 6;
+                break;
+            case "TUESDAY":
+                numLetters = 7;
+                break;
+            case "THURSDAY":
+            case "SATURDAY":
+                numLetters = 8;
+                break;
+            case "WEDNESDAY":
+                numLetters = 9;
+                break;
+            default:
+                System.out.println("Error: Not found day");
+                numLetters = day.length();
+                break;
+        }
+        return numLetters;
 ```
+
+Now:
+
+```
+int numLetters = switch (day) {
+            case "MONDAY","FRIDAY","SUNDAY"   -> 6;
+            case "TUESDAY" -> 7;
+            case "THURSDAY", "SATURDAY" -> 8;
+            case "WEDNESDAY" -> 9;
+            default      -> {
+                System.out.println("Error: Not found day");
+                yield day.length();
+            }
+        };
+```
+
+If you want to know more about it: [https://openjdk.org/jeps/354](https://openjdk.org/jeps/354)
 
 ### Java 14
 
-If you want to know more about what's new in Java 14: [https://www.oracle.com/java/technologies/javase/14-relnote-issues.html ](https://www.oracle.com/java/technologies/javase/14-relnote-issues.html)[https://www.baeldung.com/java-14-new-features](https://www.baeldung.com/java-14-new-features)
+If you want to know more about what's new in Java 14: \
+[https://www.oracle.com/java/technologies/javase/14all-relnotes.html](https://www.oracle.com/java/technologies/javase/8all-relnotes.html)[https://www.baeldung.com/java-14-new-features](https://www.baeldung.com/java-14-new-features)
 
 #### Switch Expressions (JEP 361)
 
@@ -304,7 +352,8 @@ Exception in thread "main" java.lang.NullPointerException:
 
 In this version, the Text Blocks is a fully supported product feature in Java 15 (JEP 378).
 
-If you want to know more about what's new in Java 15: [https://www.oracle.com/java/technologies/javase/15-relnote-issues.html](https://www.oracle.com/java/technologies/javase/15-relnote-issues.html)
+If you want to know more about what's new in Java 15: \
+[https://www.oracle.com/java/technologies/javase/15all-relnotes.html](https://www.oracle.com/java/technologies/javase/8all-relnotes.html)
 
 [https://www.baeldung.com/java-15-new](https://www.baeldung.com/java-15-new)
 
@@ -348,7 +397,7 @@ The Pattern Matching for instanceof is a fully supported product feature in Java
 
 In this version, the codebase was migrated to GitHub ([https://github.com/openjdk/](https://github.com/openjdk/)) by JEB 369
 
-If you want to know more about what's new in Java 16: [https://www.oracle.com/java/technologies/javase/16-relnote-issues.html](https://www.oracle.com/java/technologies/javase/16-relnote-issues.html)
+If you want to know more about what's new in Java 16: [https://www.oracle.com/java/technologies/javase/16all-relnotes.html](https://www.oracle.com/java/technologies/javase/18all-relnotes.html)
 
 [https://www.baeldung.com/java-16-new-features](https://www.baeldung.com/java-16-new-features)
 
@@ -375,7 +424,7 @@ This is a LTS version, have a extended support until September 2029
 
 The Sealed Classes is fully supported product feature in Java 17 (JEP 409).
 
-If you want to know more about what's new in Java 17: [https://www.oracle.com/java/technologies/javase/17-relnote-issues.html](https://www.oracle.com/java/technologies/javase/17-relnote-issues.html)
+If you want to know more about what's new in Java 17: [https://www.oracle.com/java/technologies/javase/17all-relnotes.html](https://www.oracle.com/java/technologies/javase/18all-relnotes.html)
 
 [https://www.baeldung.com/java-17-new-features](https://www.baeldung.com/java-17-new-features)
 
@@ -408,7 +457,7 @@ Over the years the developers of various libraries, frameworks, tools, and appli
 
 ### Java 18
 
-If you want to know more about what's new in Java 18: [https://www.oracle.com/java/technologies/javase/18-relnote-issues.html](https://www.oracle.com/java/technologies/javase/18-relnote-issues.html)
+If you want to know more about what's new in Java 18: [https://www.oracle.com/java/technologies/javase/18all-relnotes.html](https://www.oracle.com/java/technologies/javase/18all-relnotes.html)
 
 #### UTF-8 by Default (JEP 400)
 
