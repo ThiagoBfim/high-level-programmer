@@ -292,7 +292,9 @@ If you want to know more about what's new in Java 14: \
 
 #### Switch Expressions (JEP 361)
 
-Extend switch so it can be used as either a statement or an expression.
+Extend switch so it can be used as either a statement or an expression.\
+\
+These were first introduced as a preview feature in JDK 12, and even in Java 13, but now, switch expressions have been standardized so that they are part and parcel of the development kit.
 
 ```
 int numLetters = switch (day) {
@@ -305,7 +307,9 @@ int numLetters = switch (day) {
 
 #### Text Blocks (JEP 368 Second Preview)
 
-Add text blocks to the Java language. A text block is a multi-line string literal that avoids the need for most escape sequences, automatically formats the string in a predictable way, and gives the developer control over the format when desired.
+Add text blocks to the Java language. A text block is a multi-line string literal that avoids the need for most escape sequences, automatically formats the string in a predictable way, and gives the developer control over the format when desired.\
+\
+These were first introduced as a preview feature in JDK 13, and keep as a preview in Java 14.
 
 ```
 String html = """
