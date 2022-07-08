@@ -8,6 +8,9 @@ The LTS version is the Long-Term-Support, so they have more support than the oth
 
 Since Java 17, the release program has been 2 new releases every year, one in March and one in September, and the interval between LTS versions is now two years instead of three, making Java 21 (planned for September 2023) probably the next LTS.
 
+![Oracle Java SE Support Roadmap](../.gitbook/assets/Java\_support\_roadmappng.png)
+
+\
 If you want to know more about it: [https://www.oracle.com/java/technologies/java-se-support-roadmap.html](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
 
 ### Java 8 (LTS)
