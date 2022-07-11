@@ -2,7 +2,7 @@
 
 Here I'll share things I like to have with me, and things I think are important for every developer to know. \
 \
-I'll try to keep it in 6 parts:
+I'll try to keep it in 6 topics:
 
 ### **1º Mindset**
 
