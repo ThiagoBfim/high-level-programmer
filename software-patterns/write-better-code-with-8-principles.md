@@ -97,6 +97,9 @@ Don't try to overload your application by trying to apply all these principles e
 **The clean coder**\
 \- Robert Cecil Martin
 
+**Clean Architecture**\
+\- Robert Cecil Martin
+
 **The pragmatic programmer**\
 \- Andy Hunt, Dave Thomas
 
