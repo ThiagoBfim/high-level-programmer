@@ -13,6 +13,7 @@
 ## 🗑 Clean Code & Best Practices
 
 * [Clean Code – Direct Way](clean-code-and-best-practices/clean-code-direct-way.md)
+* [SOLID - Direct Way](clean-code-and-best-practices/solid-direct-way.md)
 
 ## 🧐 Software Test
 
