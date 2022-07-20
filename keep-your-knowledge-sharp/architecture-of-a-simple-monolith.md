@@ -65,7 +65,7 @@ This is just an MVP with fewer users.
 2. If the application keeps growing, it will need to scale our monolith.\
    For that it will need to change to become stateless, it is also necessary to have a cache service and remove the application state. Big refactoring :)
 3. If the app keeps growing, it will need more instances, which means it will be harder to see the logs and metrics. So we will need some application to track metrics and observability.
-4. If the application continues to grow, it will need to have more cache instances, or perhaps a database, and we will need to change our component architecture to be more resilient, available, and performant to be able to receive more requests.
+4. If the application continues to grow, it will need to have more cache instances, or perhaps more database, and we will need to change our component architecture to be more resilient, available, and performant to be able to receive more requests.
 
 This kind of approach could go on forever, maybe in some cases, you need to switch to microservices architecture, or maybe not. It depends on the type of application, size, and budget of the project.
 
