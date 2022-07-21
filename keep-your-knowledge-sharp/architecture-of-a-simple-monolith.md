@@ -2,7 +2,7 @@
 
 ### What is a software Architecture?
 
-Software architecture is, simply, the organization of a system.
+Software architecture is the organization of a system.
 
 The architecture of a system describes its major components, their relationships (structures), and how they interact with each other.
 
@@ -20,7 +20,7 @@ A monolithic architecture is a singular, large computing network with one code b
 
 ### When should I use monolithic?
 
-Monolithic is easy to deal with, because it's just a singular application.
+Monolithic is easy to deal with because it's just a singular application.
 
 They are easy to:
 
@@ -57,15 +57,37 @@ They have a monolithic and have more than 1.3 billion page views per month, so i
 
 Let's think of a hotel system and let's grow it.
 
-1. At the first moment of the application, it will only have a single module inside the monolith and a database.
+1º At the first moment of the application, it will only have a single module inside the monolith and a database.
 
-This is just an MVP with fewer users.
+This is just an MVP with fewer users.\
+\
 
-1. If the application starts growing, it will have more features, but it will keep with simple architecture.
-2. If the application keeps growing, it will need to scale our monolith.\
-   For that it will need to change to become stateless, it is also necessary to have a cache service and remove the application state. Big refactoring :)
-3. If the app keeps growing, it will need more instances, which means it will be harder to see the logs and metrics. So we will need some application to track metrics and observability.
-4. If the application continues to grow, it will need to have more cache instances, or perhaps more database, and we will need to change our component architecture to be more resilient, available, and performant to be able to receive more requests.
+
+![](../.gitbook/assets/monolith-Step1.drawio.png)
+
+2º If the application starts growing, it will have more features, but it will keep with simple architecture.
+
+\
+
+
+![](../.gitbook/assets/monolith-Step2.drawio.png)
+
+3º If the application keeps growing, it will need to scale our monolith.\
+For that it will need to change to become stateless, it is also necessary to have a cache service and remove the application state. Big refactoring :)\
+
+
+![](../.gitbook/assets/monolith-Step3.drawio.png)
+
+4º If the app keeps growing, it will need more instances, which means it will be harder to see the logs and metrics. So we will need some application to track metrics and observability.\
+
+
+![](../.gitbook/assets/monolith-Step4.drawio.png)
+
+5º If the application continues to grow, it will need to have more cache instances, or perhaps more database instances, and we will need to change our component architecture to be more resilient, available, and performant to be able to receive more requests.\
+\
+
+
+![](../.gitbook/assets/monolith-Step5.drawio.png)
 
 This kind of approach could go on forever, maybe in some cases, you need to switch to microservices architecture, or maybe not. It depends on the type of application, size, and budget of the project.
 
