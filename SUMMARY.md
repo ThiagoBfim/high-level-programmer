@@ -1,6 +1,6 @@
 # Table of contents
 
-* [0⃣ High Level Programmer](README.md)
+* [0⃣ 0⃣ High Level Programmer](README.md)
 
 ## 💭 Mindset
 
@@ -8,6 +8,7 @@
 
 ## 📖 Basics
 
+* [7 Things you should know about Java besides the code](basics/7-things-you-should-know-about-java-besides-the-code.md)
 * [4 Pillars of Object-Oriented Programming](basics/4-pillars-of-object-oriented-programming.md)
 
 ## 🗑 Clean Code & Best Practices
