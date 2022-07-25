@@ -1,6 +1,6 @@
 # Table of contents
 
-* [0⃣ 0⃣ High Level Programmer](README.md)
+* [0⃣ 0⃣ 0⃣ High Level Programmer](README.md)
 
 ## 💭 Mindset
 
@@ -26,6 +26,7 @@
 
 ## 📚 Keep your knowledge sharp
 
+* [Distributed System with Spring Cloud](keep-your-knowledge-sharp/distributed-system-with-spring-cloud.md)
 * [Architecture of a simple Monolith](keep-your-knowledge-sharp/architecture-of-a-simple-monolith.md)
 * [What should I know about REST API?](keep-your-knowledge-sharp/rest-api-best-practices.md)
 * [HTTP Status 204 vs 404](keep-your-knowledge-sharp/http-status-204-vs-404.md)
