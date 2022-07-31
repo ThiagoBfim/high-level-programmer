@@ -4,6 +4,7 @@
 
 ## 💭 Mindset
 
+* [5 Tips to become a better programmer](mindset/5-tips-to-become-a-better-programmer.md)
 * [A Brief History of Why You Should Code with Care](mindset/a-brief-history-of-why-you-should-code-with-care.md)
 
 ## 📖 Basics
