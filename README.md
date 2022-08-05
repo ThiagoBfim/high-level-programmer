@@ -1,6 +1,6 @@
-# High Level Programmer
+# ☕ 0⃣  High Level Programmer 0⃣
 
-Here I'll share things I like to have with me, and things I think are important for every developer to know. \
+Here I'll share things I like to have with me, and things I think are important for every developer to know.\
 \
 I'll try to keep it in 6 topics:
 
@@ -26,4 +26,4 @@ It is very important to write clean code and write using the best tools because 
 
 ### 6º Keep your knowledge sharp
 
-It's very important to keep our ability sharp to be prepared to deal with daily problems
+It's very important to keep our ability sharp to be prepared to deal with daily problems.
