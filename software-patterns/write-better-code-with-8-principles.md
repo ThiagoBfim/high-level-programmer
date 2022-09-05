@@ -7,7 +7,7 @@ coverY: 0
 
 ![Design Principles](../.gitbook/assets/DesignPrinciples.png)
 
-### What are Design Principles? 
+### What are Design Principles?
 
 Design Principles are crucial to creating a good product. The principles guide good practices for reuse and building cohesion pieces.
 
@@ -17,7 +17,7 @@ That's why the principles are so important because they are this interconnection
 
 ### \[SRP] - The Single Responsibility Principle
 
-"Gather together the things that change for the same reasons. Separate things that change for different reasons." \
+"Gather together the things that change for the same reasons. Separate things that change for different reasons."\
 \- Robert C. Martin
 
 ![](../.gitbook/assets/image6.png)
@@ -34,7 +34,7 @@ That's why the principles are so important because they are this interconnection
 "A program that uses an interface must not be confused by an implementation of that interface."\
 \- Robert C. Martin
 
-![](<../.gitbook/assets/image8 (1).png>)
+![](../.gitbook/assets/image8.png)
 
 ### \[ISP] - Interface Segregation Principle
 
@@ -52,11 +52,10 @@ That's why the principles are so important because they are this interconnection
 
 ### SOLID
 
-SOLID is an acronym that contains the five principles described above. \
+SOLID is an acronym that contains the five principles described above.\
 \
 The SOLID is these 5 principles that Robert C. Martin compiled from his learning and with other professionals.\
-\
-
+\\
 
 ![](../.gitbook/assets/image14.png)
 
@@ -86,8 +85,6 @@ Always implement things when you really need them, never when you just anticipat
 In this article, I show you 8 principles that will guide you to write better solutions in your code. Keep these principles in mind and use them when you need to.
 
 Don't try to overload your application by trying to apply all these principles everywhere. They are very important, and you will probably need some of them most of the time, so use them wisely.
-
-
 
 ### References
 
