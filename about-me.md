@@ -14,5 +14,5 @@ I really enjoy creating software, because I think software can change people's l
 _**"Knowledge is power. Knowledge shared is power multiplied"**_\
 \- Robert Boyce
 
-The second reason I am writing this blog is to help myself. Help me with my English, help me learn more. When we share we learn more, and in my opinion, it is much easier to understand something we did and remember things. So this blog is to help me too :sunglasses:
+The second reason I am writing this blog is to help myself. Help me with my English, help me learn more. When we share we learn more and, in my opinion, it's much easier to understand something we've done, and remember things. So this blog is to help me too :sunglasses:
 
