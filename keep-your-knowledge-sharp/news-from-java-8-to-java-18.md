@@ -1,4 +1,4 @@
-# News from Java 8 to Java 18
+# News from Java 8 to Java 19
 
 Here I will include some news in each version of Java, perhaps the most important, at least for development, but remember, there will be more things to know about this, there are several new things done internally that help a lot.
 
@@ -21,7 +21,7 @@ But beware, there are many tools and frameworks that stop supporting this versio
 
 I'll show just some news in this version because this is a big version with a lot of news. Like LocalDate, LocalDateTime, updates into File API...
 
-If you want to know more about what's new in Java 8: [https://www.baeldung.com/java-8-new-features](https://www.baeldung.com/java-8-new-features) \
+If you want to know more about what's new in Java 8: [https://www.baeldung.com/java-8-new-features](https://www.baeldung.com/java-8-new-features)\
 [https://www.oracle.com/java/technologies/javase/8-whats-new.html](https://www.oracle.com/java/technologies/javase/8-whats-new.html)\
 [https://www.oracle.com/java/technologies/javase/8all-relnotes.html](https://www.oracle.com/java/technologies/javase/8all-relnotes.html)
 
@@ -89,7 +89,7 @@ _"Each module must explicitly state its dependencies. "_
 
 _"A key motivation of the module system is strong encapsulation."_
 
-If you want to know more about java Modules: __ [https://www.oracle.com/pt/corporate/features/understanding-java-9-modules.html](https://www.oracle.com/pt/corporate/features/understanding-java-9-modules.html)
+If you want to know more about java Modules: \_\_ [https://www.oracle.com/pt/corporate/features/understanding-java-9-modules.html](https://www.oracle.com/pt/corporate/features/understanding-java-9-modules.html)
 
 #### Improvements Java 9
 
@@ -179,7 +179,6 @@ public static Path writeString(Path path, CharSequence csq, OpenOption... option
 Returns a predicate that is the negation of the supplied predicate. This is accomplished by returning the result of the calling target.negate().
 
 ```
-
 var newListWithoutBlank = myList.stream()
   .filter(Predicate.not(String::isBlank))
   .collect(Collectors.toList());
@@ -290,7 +289,7 @@ If you want to know more about it: [https://openjdk.org/jeps/354](https://openjd
 
 ### Java 14
 
-If you want to know more about what's new in Java 14: \
+If you want to know more about what's new in Java 14:\
 [https://www.oracle.com/java/technologies/javase/14all-relnotes.html](https://www.oracle.com/java/technologies/javase/8all-relnotes.html)[https://www.baeldung.com/java-14-new-features](https://www.baeldung.com/java-14-new-features)
 
 #### Switch Expressions (JEP 361)
@@ -359,7 +358,7 @@ Exception in thread "main" java.lang.NullPointerException:
 
 In this version, the Text Blocks is a fully supported product feature in Java 15 (JEP 378).
 
-If you want to know more about what's new in Java 15: \
+If you want to know more about what's new in Java 15:\
 [https://www.oracle.com/java/technologies/javase/15all-relnotes.html](https://www.oracle.com/java/technologies/javase/8all-relnotes.html)
 
 [https://www.baeldung.com/java-15-new](https://www.baeldung.com/java-15-new)
@@ -482,6 +481,63 @@ An @snippet tag for JavaDoc's Standard Doclet has been added, to simplify the in
 
 For further details, see [Programmer's Guide to Snippets](https://docs.oracle.com/en/java/javase/18/code-snippet/index.html).
 
+### Java 19
+
+If you want to know more about what's new in Java 19: [https://www.oracle.com/java/technologies/javase/19all-relnotes.html](https://www.oracle.com/java/technologies/javase/18all-relnotes.html)
+
+#### Record Patterns (JEP 405 Preview)
+
+With this JEP, it is possible to use pattern matching with Record. Record patterns and type patterns can be nested to enable a powerful, declarative, and composable form of data navigation and processing.
+
+```
+record Point(int x, int y) {}
+
+static void printSum(Object o) { 
+  if (o instanceof Point p) { 
+    int x = p.x(); int y = p.y(); 
+    System.out.println(x+y); 
+  } 
+}
+```
+
+#### Pattern Matching for switch (JEP 427 Third Preview)
+
+With this JEP, the switch will allow null. Traditionally, switch statements and expressions throw NullPointerException if the selector expression evaluates to null. However, now, with a case null, the switch executes the code associated with that label; without a case null, the switch throws NullPointerException.
+
+```
+   switch (s) {
+        case null         -> System.out.println("Oops");
+        case "Foo", "Bar" -> System.out.println("Great");
+        default           -> System.out.println("Ok");
+    }
+```
+
+With this JEP it's also possible to create conditionals in the switch expression, called **dominance of pattern labels.**
+
+```
+Integer i = ...
+switch (i) {
+    case -1, 1 -> ...                 // Special cases
+    case Integer i when i > 0 -> ...  // Positive integer cases
+    case Integer i -> ...             // All the remaining integers
+}
+```
+
+#### Virtual Threads (JEP 425  Preview)
+
+Virtual threads are lightweight threads that dramatically reduce the effort of writing, maintaining, and observing high-throughput concurrent applications.
+
+```
+try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
+    IntStream.range(0, 10_000).forEach(i -> {
+        executor.submit(() -> {
+            Thread.sleep(Duration.ofSeconds(1));
+            return i;
+        });
+    });
+}  // executor.close() is called implicitly, and waits
+```
+
 ### Conclusion
 
 Java changed a lot, now there are many things that help the day-to-day developers.
@@ -495,3 +551,5 @@ So keep studying and keep in touch with the news from Java :smile:
 [JEPS Search](https://chriswhocodes.com/jepsearch.html)
 
 [Java SE Release notes](https://www.oracle.com/java/technologies/javase/jdk-relnotes-index.html)
+
+[OpenJDK Releases](https://openjdk.org/projects/jdk/)
