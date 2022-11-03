@@ -1,6 +1,6 @@
 # Table of contents
 
-* [☕ 0⃣  High Level Programmer 0⃣](README.md)
+* [☕ High Level Programmer](README.md)
 
 ## 💭 Mindset
 
