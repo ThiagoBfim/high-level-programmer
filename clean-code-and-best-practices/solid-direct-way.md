@@ -27,16 +27,12 @@ That's why principles are of great value
 > "Gather together the things that change for the same reasons. Separate things that change for different reasons."\
 > **-** Robert C. Martin
 
-* Robert C. Martin
-
 An active corollary to Conway’s law: The best structure for a software system is heavily influenced by the social structure of the organization that uses it so that each software module has one, and only one, reason to change.
 
 ### \[OCP] - The Open-Closed Principle
 
 > "A Module should be open for extension but closed for modification."\
 > **-** Robert C. Martin
-
-* Robert C. Martin
 
 Bertrand Meyer made this principle famous in the 1980s. The gist is that for software systems to be easy to change, they must be designed to allow the behavior of those systems to be changed by adding new code, rather than changing existing code.
 
