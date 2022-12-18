@@ -22,7 +22,7 @@ On the other hand, the Azure API has this recommendation:
 
 The good old answer is it depends. It depends on your API usage, for example, if it's a private API, maybe align with the team that's going to use it and create a common standard. The key here is having a common pattern and sticking to it.
 
-### References:
+### References
 
 **REST API - Design Rulebook**\
 **-** Mark Masse
