@@ -1,10 +1,8 @@
 # Redis Architecture
 
-
-
 There are 3 common architectures for using Redis:
 
-#### 1. Master-Slave
+### 1. Master-Slave
 
 Using master-slave, in which only the master is responsible for writing, and the others only for reading.
 
@@ -17,7 +15,7 @@ NOTE: If the Master becomes unavailable, Redis will stop responding.
 
 ![](https://rtfm.co.ua/wp-content/uploads/2019/03/screen-shot-2017-08-11-at-14-35-11.png)
 
-#### 2. Master-Slave with Sentinel
+### 2. Master-Slave with Sentinel
 
 In this architecture it works similarly to Master-Slave, the big difference is that a Sentinel instance will be created for each Redis instance.
 
@@ -25,7 +23,7 @@ Sentinel is responsible for identifying who is the master, and if there is a pro
 
 ![](../.gitbook/assets/redis-sentinel.png)
 
-#### 3. Redis Cluster
+### 3. Redis Cluster
 
 Using shared architecture, you will have multiple masters
 
@@ -72,7 +70,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-### Referência
+### References
 
 * [Difference between the architectures Redis](https://rtfm.co.ua/en/redis-replication-part-1-overview-replication-vs-sharding-sentinel-vs-cluster-redis-topology/)
 * [Redis Sentinel Documentation](https://redis.io/topics/sentinel)
