@@ -60,42 +60,34 @@ Let's think of a hotel system and let's grow it.
 1º At the first moment of the application, it will only have a single module inside the monolith and a database.
 
 This is just an MVP with fewer users.\
-\
 
 
 ![](../.gitbook/assets/monolith-Step1.drawio.png)
 
 2º If the application starts growing, it will have more features, but it will keep with simple architecture.
 
-\
-
-
 ![](../.gitbook/assets/monolith-Step2.drawio.png)
 
-3º If the application keeps growing, it will need to scale our monolith.\
-For that it will need to change to become stateless, it is also necessary to have a cache service and remove the application state. Big refactoring :)\
-
+3º If the application continues to grow, it will need to scale our monolith.\
+For that, it will need to change to become stateless, it is also necessary to have a cache service and remove the application state. Big refactoring :)
 
 ![](../.gitbook/assets/monolith-Step3.drawio.png)
 
-4º If the app keeps growing, it will need more instances, which means it will be harder to see the logs and metrics. So we will need some application to track metrics and observability.\
-
+4º If the app continues to grow, it will need more instances, which means it will be harder to see the logs and metrics. So, we will need some application to track metrics and observability.
 
 ![](../.gitbook/assets/monolith-Step4.drawio.png)
 
-5º If the application continues to grow, it will need to have more cache instances, or perhaps more database instances, and we will need to change our component architecture to be more resilient, available, and performant to be able to receive more requests.\
-\
-
+5º If the application continues to grow, it will have to have more cache instances, or perhaps more database instances, and we will have to change our component architecture to be more resilient, available, and performant to be able to receive more requests.
 
 ![](../.gitbook/assets/monolith-Step5.drawio.png)
 
-This kind of approach could go on forever, maybe in some cases, you need to switch to microservices architecture, or maybe not. It depends on the type of application, size, and budget of the project.
+This kind of approach could go on forever, maybe in some cases, you need to switch to microservices architecture, or perhaps not. It depends on the type of application, size, and budget of the project.
 
 ### Conclusion
 
 Monolithic architecture is very useful, and you shouldn't start with microservices architecture because some big companies use it.
 
-There are probably a lot of differences between Netflix, Amazon, and their app. So probably the microservice might not fit well.
+There are probably many differences between Netflix, Amazon, and your app. So, most likely, the microservice might not fit well for your application.
 
 Based on the advantages and disadvantages of microservice, you should analyze whether Monolithic fits well in your application or not.
 
