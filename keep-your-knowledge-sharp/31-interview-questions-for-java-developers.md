@@ -43,7 +43,7 @@ You have to know deep the differences between them.
 
 **Answer:** Set does not accept duplicate elements and has no indexers, so the order is not important, and it also does not allow searching by index.
 
-**8. Which is more performant to add an element, ArrayList ou HashSet?**
+**8. Which is more performant to perform contains method, ArrayList or HashSet?**
 
 **Answer:** HashSet O(1), ArrayList O(n)
 
@@ -67,7 +67,7 @@ This question talks about the difference between two functional interfaces, but 
 
 **13. Final is a reserved word in Java, how can we use it?**
 
-**Answer:** With a variable to make it impossible to include a new instance.\
+**Answer:** With a variable to make it is impossible to include a new instance.\
 With class to block extensions.\
 With a method to block override.
 
@@ -111,14 +111,14 @@ You should know how to use them.
 
 **21. Do you know what is clean code, can you give me an example?**
 
-**Answer:** Clean code is a practice to keep the code easier to understand. Some examples: 3 or fewer parameters, methods with few lines, small classes, clear names...
+**Answer:** Clean code is a practice to keep the code easier to understand. Some examples: 3 or fewer parameters, methods with few lines, small classes, and clear names...
 
 **22. Give me two types of Garbage Collectors, and what is it?**
 
-**Answer:** Serial Collector, Parallel Collector, G1 (Garbage First). In Java, the process of deallocating memory is handled automatically by the garbage collector.\
+**Answer:** Serial Collector, Parallel Collector, G1 (Garbage First), ZGC. In Java, the process of deallocating memory is handled automatically by the garbage collector.\
 It's also useful to know the 3 sections of the GC, the Young generation, the Old generation, and the Permanent generation.
 
-**23. What type of memories exists in the JVM?**
+**23. What types of memories exist in the JVM?**
 
 **Answer:** Heap and non-heap.\
 The Heap area is the memory block where objects are created or objects are stored.\
@@ -141,7 +141,7 @@ You should know the difference and when to use them.
 
 **26. What is a JWT(Json web token)?**
 
-**Answer:** JWT is a token to contain and transmit information about a particular user or session. JWT is separated into 3 parts, Header (signature algorithm), Payload (claims, user data) and Signature (security guarantee)
+**Answer:** JWT is a token to contain and transmits information about a particular user or session. JWT is separated into 3 parts, Header (signature algorithm), Payload (claims, user data), and Signature (security guarantee)
 
 **27. What is Idempotent?**
 
@@ -154,7 +154,7 @@ Hypermedia is the last level.
 
 **29. Do you know what is XSS, and how to prevent it?**
 
-**Answer:** Cross Site Scripting can occur on the malicious script executed at the client side. Avoid  allowing any type of JavaScript in the content of the application, and include a good CORs configuration.\
+**Answer:** Cross Site Scripting can occur on the malicious script executed at the client side. Avoid allowing any type of JavaScript in the content of the application, and include a good CORs configuration.\
 If you don't know about CORs(Cross-origin resource sharing), I recommend you to study it.
 
 **30. What is CDI (Contexts and Dependency Injection)?**
@@ -177,6 +177,6 @@ Hope this helps you :)
 
 ### References
 
-* [Awesome Java Inteview Questions](https://github.com/DopplerHQ/awesome-interview-questions#java)
-* [Java Inteview Questions](https://github.com/learning-zone/java-interview-questions)
+* [Awesome Java Interview Questions](https://github.com/DopplerHQ/awesome-interview-questions#java)
+* [Java Interview Questions](https://github.com/learning-zone/java-interview-questions)
 * [RFC9110](https://www.rfc-editor.org/rfc/rfc9110#name-idempotent-methods)\
