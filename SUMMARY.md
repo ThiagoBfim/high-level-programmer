@@ -37,6 +37,7 @@
 * [31 Interview Questions for Java Developers](keep-your-knowledge-sharp/31-interview-questions-for-java-developers.md)
 * [Are you sure about choosing Microservice?](keep-your-knowledge-sharp/are-you-sure-about-choosing-microservice.md)
 * [Garbage Collector, should I know about it?](keep-your-knowledge-sharp/garbage-collector-should-i-know-about-it.md)
+* [Code review - Best Practices](keep-your-knowledge-sharp/code-review-best-practices.md)
 
 ## Others
 
