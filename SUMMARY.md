@@ -12,11 +12,6 @@
 * [7 Things you should know about Java besides the code](basics/7-things-you-should-know-about-java-besides-the-code.md)
 * [4 Pillars of Object-Oriented Programming](basics/4-pillars-of-object-oriented-programming.md)
 
-## 🗑 Clean Code & Best Practices
-
-* [Clean Code – Direct Way](clean-code-and-best-practices/clean-code-direct-way.md)
-* [SOLID - Direct Way](clean-code-and-best-practices/solid-direct-way.md)
-
 ## 🧐 Software Test
 
 * [Unit Test - Good Practices](software-test/unit-test-good-practices.md)
@@ -24,6 +19,11 @@
 ## 🏅 Software Patterns
 
 * [Write better code with 8 principles](software-patterns/write-better-code-with-8-principles.md)
+
+## 🗑 Clean Code & Best Practices
+
+* [Clean Code – Direct Way](clean-code-and-best-practices/clean-code-direct-way.md)
+* [SOLID - Direct Way](clean-code-and-best-practices/solid-direct-way.md)
 
 ## 📚 Keep your knowledge sharp
 
