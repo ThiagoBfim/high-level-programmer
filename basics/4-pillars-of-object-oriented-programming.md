@@ -8,15 +8,15 @@ Before we talk about the 4 pillars of OOP, let's understand what is Object-Orien
 
 Object-Oriented Programming is one paradigm of programming language. This paradigm tries to solve problems based on objects.
 
-Basically, an object is a component that can have attributes and actions. These attributes and actions will help the system deal with real-world problems. One example of an object can be a person, one person can have a name, date of birth, and contacts. Contacts can be another object, and this object can have multiple attributes too, like email, phone...
+An object is a component that can have attributes and actions. These attributes and actions will help the system deal with real-world problems. One example of an object can be a person, one person can have a name, date of birth and contacts. Contacts can be another object, and this object can have multiple attributes too, like email, phone...
 
-There are other types of paradigms like Functional, Procedural, Declarative... All paradigms have different proposals to solve different types of problems, but in this article, we will only talk just about OOP.
+There are other types of paradigms like Functional, Procedural, Declarative... All paradigms have different proposals to solve different types of problems, but in this article, we will only talk about OOP.
 
 ### What are the 4 pillars?
 
 If you are using a programming language that supports the OOP, so this programming language will have 4 pillars (Abstraction, Encapsulation, Inheritance, Polymorphism).
 
-Example of programming language that supports OOP: Smalltalk, Java, C#, PHP...
+Examples of programming language that supports OOP: Smalltalk, Java, C#, PHP...
 
 But what are these 4 pillars?
 
@@ -24,9 +24,9 @@ But what are these 4 pillars?
 
 Abstraction is responsible for defining what are the main attributes of your class based on the system type.
 
-_E_xample: Let's think of a system that contains a Person class.
+Example: Let's think of a system that contains a Person class.
 
-The Person can have a very high number of attributes, such as heart, brain, teeth, blood type, gender, name, birthday, tall, weight...
+The Person can have a very high number of attributes, such as heart, brain, teeth, blood type, gender, name, birthday, tall, weight, etc...
 
 Depending on the system you are building, you will need some of these attributes, and you must know and apply abstraction very well to define just the necessary attributes.
 
@@ -36,7 +36,7 @@ _**So with this pillar, we choose only the attributes that our system requires**
 
 #### Encapsulation
 
-Encapsulation is responsible to keep state and logic internal. This means that most of the attributes should not be exposed, the actions (functions) should be exposed, and they are responsible to change the internal state of the object without exposing the state.
+Encapsulation is responsible for keeping state and logic internal. This means that most of the attributes should not be exposed, the actions (functions) should be exposed, and they are responsible for changing the internal state of the object without exposing the state.
 
 Example: Let's keep the system that contains a Person class, but now our system is a bakery system.
 
@@ -91,16 +91,3 @@ These 4 pillars are the key to writing better software with OOP. It is very impo
 [The Four Pillars of Object-Oriented Programming](https://www.freecodecamp.org/news/four-pillars-of-object-oriented-programming/)
 
 [The Forgotten History of OOP](https://medium.com/javascript-scene/the-forgotten-history-of-oop-88d71b9b2d9f)
-
-_****_
-
-_****_
-
-__
-
-__
-
-
-
-
-
