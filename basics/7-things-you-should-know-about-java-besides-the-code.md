@@ -75,7 +75,7 @@ There are 5 collectors that you should know if you want to improve the GC in you
 * Parallel Collector
 * Garbage-First (G1) Garbage Collector
 * The Z Garbage Collector
-* Selecting a Collector
+* Shenandoah Garbage Collector
 
 ### JUG (Java users Group)
 
