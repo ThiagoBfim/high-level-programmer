@@ -18,7 +18,7 @@ New functionality is requested to create users. This functionality must have onl
 
 It is extremely important to think analytically to suggest to the customer the improvements that are necessary for a professional product.
 
-### Now how to read (ugly code) and write code (clean code)
+### Know how to read (ugly code) and write code (clean code)
 
 80% of what you're going to do is read code
 
