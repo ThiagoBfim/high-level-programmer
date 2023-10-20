@@ -22,17 +22,15 @@ But what are these 4 pillars?
 
 #### Abstraction
 
-Abstraction is responsible for defining what are the main attributes of your class based on the system type.
+Abstraction is responsible for hiding the complex implementation details. It is very useful to help developers to focus on what an object does rather than how it does.
 
-Example: Let's think of a system that contains a Person class.
+Example: Let's think of Java Collections.
 
-The Person can have a very high number of attributes, such as heart, brain, teeth, blood type, gender, name, birthday, tall, weight, etc...
+We don’t need to know how an Array List works deeply to use the add method. Just the method name is enough to understand it. But behind it, there are other methods like grow(), which we don't need to understand deeply.
 
-Depending on the system you are building, you will need some of these attributes, and you must know and apply abstraction very well to define just the necessary attributes.
+Think of abstraction in object-oriented programming like using a TV remote control. You don't need to understand the intricate electronics inside the TV to change channels or adjust the volume. The remote control provides an abstract interface that hides the inner workings of the TV, allowing you to interact with it at a higher level.
 
-Example: If you're creating a system for a gym, maybe tall, weight, and gender are important, but if you're creating a system for employees, the tall and weight attributes might not make sense.
-
-_**So with this pillar, we choose only the attributes that our system requires**._
+_**So with this pillar, we simplify complex systems by modeling classes based on their essential characteristics and behaviors while hiding unnecessary details.**_
 
 #### Encapsulation
 
@@ -64,7 +62,7 @@ _**So with this pillar, we avoid duplicate code using 'is a' pattern, if we veri
 
 #### Polymorphism
 
-Polymorphism is responsible to provide the capability for a class to behave as another class.
+Polymorphism is responsible for providing the capability for a class to behave as another class.
 
 Example: Let's keep the system above, the Payroll Management System.
 
